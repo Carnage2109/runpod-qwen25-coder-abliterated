@@ -1,0 +1,16 @@
+{
+  "input": {
+    "openai_route": "/v1/chat/completions",
+    "openai_input": {
+      "model": "qwen2.5-coder-32b-abliterated",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Write a Python function that checks if a string is a palindrome."
+        }
+      ],
+      "max_tokens": 512,
+      "temperature": 0.7
+    }
+  }
+}

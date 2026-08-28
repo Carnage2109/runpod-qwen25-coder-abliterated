@@ -1,0 +1,8 @@
+# Optional vLLM config file. Mount at /vllm_config.yaml or set VLLM_CONFIG_FILE.
+# Environment variables in RunPod override these values.
+model: huihui-ai/Qwen2.5-Coder-32B-Instruct-abliterated
+max-model-len: 32768
+gpu-memory-utilization: 0.95
+dtype: bfloat16
+enable-auto-tool-choice: true
+tool-call-parser: hermes
