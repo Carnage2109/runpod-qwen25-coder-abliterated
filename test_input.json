@@ -2,7 +2,7 @@
   "input": {
     "openai_route": "/v1/chat/completions",
     "openai_input": {
-      "model": "qwen2.5-coder-32b-abliterated",
+      "model": "qwen2.5-coder-7b-abliterated",
       "messages": [
         {
           "role": "user",
